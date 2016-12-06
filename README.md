@@ -1,3 +1,11 @@
+# json-to-pdf
+
+This project aims to provide a way to declaratively generate PDF reports using JSON notation via the
+ [clj-pdf](https://github.com/yogthos/clj-pdf) library.
+
+An example document can be viewed [here](https://docs.google.com/viewer?url=https://github.com/yogthos/json-to-pdf/raw/master/example.pdf).
+
+
 # Installation
 
 ### Gradle
@@ -6,7 +14,7 @@
 repositories {
     jcenter()
     maven {
-        url 'http://inf.ufg.br'
+        url 'http://clojars.org/repo'
     } 
 }
 
